@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Music Villalón</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Festival Music Villalón</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#entradas">Entradas</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>
+                    Festival Music Villalón
+                    <span>Julio 2021 Roma, Casa del jazz</span>
+                </h2>
+            </div>
+        </div>
+
+        <video controls autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <div class="sobre-festival contenedor">
+        <div class="imagen">
+            <img src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+        </div>
+
+        <div class="contenido-festival">
+            <h2>Festival Music Villalón </h2>
+            <p class="fecha">Julio 2021 Roma, Casa del Jazz</p>
+            <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatum blanditiis
+                quia
+                architecto, consequuntur voluptatibus qui rem, ratione tenetur asperiores magni. Cupiditate vero dolor,
+                quas saepe ut dignissimos quasi a?</p>
+        </div>
+    </div>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">Viernes 21</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>24:00 |<span> Metallica</span></li>
+                    <li>22:00 |<span> Muse</span></li>
+                    <li>20:00 |<span> Korn</span></li>
+                    <li>19:00 |<span> Breaking Benjamin</span></li>
+                    <li>18:00 |<span> Pearl Jam</span></li>
+                    <li>17:00 |<span> 30 Seconds To Mars</span></li>
+                </ul>
+
+            </div>
+            <div class="escenario pop bg-verde">
+                <p class="nombre-escenario">Escenario Pop</p>
+                <ul class="calendario">
+                    <li>24:00 |<span> Lana del Rey</span></li>
+                    <li>22:00 |<span>Stormzy </span></li>
+                    <li>20:00 |<span> Coldplay</span></li>
+                    <li>19:00 |<span> Travis Scott</span></li>
+                    <li>18:00 |<span> Lewis Capaldi</span></li>
+                    <li>17:00 |<span> Post Malone</span></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <p class="dia">Sábado 22</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>24:00 |<span> Red Hot Chili Peppers</span></li>
+                    <li>22:00 |<span> The Killers</span></li>
+                    <li>20:00 |<span> Deftones</span></li>
+                    <li>19:00 |<span> Limp Bizkit</span></li>
+                    <li>18:00 |<span> Papa Roach</span></li>
+                    <li>17:00 |<span> Lamb of God</span></li>
+                </ul>
+
+            </div>
+            <div class="escenario pop bg-amarillo">
+                <p class="nombre-escenario">Escenario Pop</p>
+                <ul class="calendario">
+                    <li>24:00 |<span> Paul Van Dyk</span></li>
+                    <li>22:00 |<span>Armin </span></li>
+                    <li>20:00 |<span> Above</span></li>
+                    <li>19:00 |<span> Chris</span></li>
+                    <li>18:00 |<span> Laureen</span></li>
+                    <li>17:00 |<span> Post Malone</span></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="entradas" class="entradas bg-verde">
+        <h3>Entradas</h3>
+
+        <div class="contenedor-entradas contenedor">
+            <div class="basico plan">
+                <p>Pase 1 Día</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y bebida
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>
+                                100€                               
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="premium plan">
+                <p>Pase 2 Días</p>
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y bebida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Camisa del evento
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Acesso VIP
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td>
+                                150€                               
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Festival Music Villalón. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="build/js/bundle.js"></script>
+
+</body>
+
+</html>

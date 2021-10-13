@@ -1,0 +1,64 @@
+.entradas{
+    padding: $separacion 0;
+    h3{
+        text-align: center;
+        color: $blanco;
+    }
+
+    .contenedor-entradas{
+        margin-top: $separacion /2;
+        @include grid(2, $separacion);
+    }
+
+    .plan{
+        p{
+            color: $blanco;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.pase{
+    width: 100%;
+    border-spacing: 0;
+    thead{
+        background-color: $rosa;
+        th {
+            padding: $separacion / 2;
+            color: $blanco;
+            text-transform: uppercase;
+            font-weight: $delgada;
+            font-size: 20px;
+        }
+    }
+
+    tbody{
+        background-color: $blanco;
+        td{
+            padding: $separacion /4;
+            border-bottom: 1px solid #e1e1e1;
+        }
+
+        tr{
+            &:last-of-type{
+                td{
+                    border: none;
+                }
+            }
+        }
+    }
+
+    tfoot{
+        background-color: $morado;
+
+        td{
+            padding: $separacion / 4;
+            text-align: center;
+            font-size: 20px;
+            color: $blanco;
+        }
+    }
+
+}
