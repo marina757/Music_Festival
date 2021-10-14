@@ -1,2 +1,12 @@
 # Music_Festival
-Proyecto con SASS y Gulp
+
+https://villalon-festival.netlify.app/
+
+Tecnologías:
+
+-HTML
+-CSS
+-SASS
+-npm
+-Gulp
+-Javascript
